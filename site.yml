@@ -1,0 +1,21 @@
+---
+- name: Main Play Book
+  hosts: all
+  gather_facts: no
+  # Flat import complete tasks of a role
+  roles:
+  - myos
+
+  tasks:
+   - name: Nesting of all tasks of another roles into the current play tasks dynamically
+     include_role:
+      name: mycs
+
+   - name: Nesting of specific tasks of another roles into the current play tasks dynamically
+     include_role:
+      name: mycs
+      tasks_from: child_tasks.yml
+
+   - name: "Additional Task3"
+     debug: msg="Im Final Task"
+...

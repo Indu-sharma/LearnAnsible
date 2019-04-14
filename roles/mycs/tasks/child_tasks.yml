@@ -1,0 +1,4 @@
+---
+- name: Child task of mycs role
+  shell: echo "Hello from Child task of mycs role"
+...

@@ -1,0 +1,7 @@
+---
+# tasks file for mycs
+- name: Task1 from mycs role
+  shell: ps
+  register: op
+- name: Task2 from mycs role
+  debug: msg="...{{ op }}.."

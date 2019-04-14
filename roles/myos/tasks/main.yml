@@ -1,0 +1,7 @@
+---
+- name: My Task1
+  shell: ls -lrt
+  register: op 
+- name: My Task2
+  debug: msg={{op.stdout}}
+...
