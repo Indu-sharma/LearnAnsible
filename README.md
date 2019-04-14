@@ -60,7 +60,16 @@ Repository Structure
 |   |   |   +--- main.yml
 +--- site.yml
 ```
-# About:
+@About: This repos demonstrate how to organise ansible projects, playbooks, plays, roles, tasks and re-use the tasks/roles.
 
-This repos demonstrate how to organise ansible projects, playbooks, plays, roles, tasks and re-use the tasks/roles.
+@Steps to get started:
+
+*Clone the Repos*
+*pip install -r requirements.txt*
+*ansible-galaxy install -r requirements.yml*
+*ansible-playbook site.yml -vvv*
+
+
+
+
 
