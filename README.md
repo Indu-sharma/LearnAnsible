@@ -64,10 +64,13 @@ Repository Structure
 
 @Steps to get started:
 
-*Clone the Repos*
-*pip install -r requirements.txt*
-*ansible-galaxy install -r requirements.yml*
-*ansible-playbook site.yml -vvv*
+```*Clone the Repos*
+
+*pip install -r requirements.txt
+
+*ansible-galaxy install -r requirements.yml
+
+*ansible-playbook site.yml -vvv```
 
 
 
